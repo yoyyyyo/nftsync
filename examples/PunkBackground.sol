@@ -25,6 +25,7 @@ contract PunkBackground is ERC721Sync {
     function setColor(uint _id, uint24 _color) external {
         require(this.ownerOf(_id) == msg.sender, "you do not own this punk");
         _colors[_id] = _color;
+        _hasColor[_id] = true;
     }
 
     function _afterSync(address, address, uint256 tokenId) internal override {
