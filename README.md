@@ -2,4 +2,4 @@
 create modified without transferring the original token (for use with services such as Twitter Blue)
 
 
-examples are available in the <examples/> folder
+examples are available in the [examples](examples/) folder
