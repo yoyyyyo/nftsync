@@ -1,0 +1,9 @@
+{
+    "name": "@yoyyyyo/nftsync",
+    "version": "0.0.1",
+    "license": "CC0-1.0",
+    "files": [
+        "*.sol",
+        "examples/*.sol"
+    ]
+}
