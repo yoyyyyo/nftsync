@@ -1,5 +1,5 @@
 pragma solidity >=0.8.13;
-import "../ERC721Sync.sol";
+import "@yoyyyyo/nftsync/ERC721Sync.sol";
 
 // SPDX-License-Identifier: CC0-1.0
 import "@openzeppelin/contracts/utils/Strings.sol";
